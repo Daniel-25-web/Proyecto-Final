@@ -1,0 +1,108 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+/* Estilos para el contenedor de contenido principal */
+.content {
+    display: flex; /* Flexbox para alinear contenido */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    height: auto; /* Altura automática */
+}
+
+/* Estilos para las tarjetas */
+.card {
+    max-width: 900px; /* Ancho máximo de la tarjeta */
+    margin: 20px; /* Margen alrededor de la tarjeta */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.card-img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    border-radius: 50%; /* Bordes completamente redondeados */
+    object-fit: cover; /* Ajuste de la imagen */
+}
+
+/* Estilos para botones primarios */
+.btn-primary {
+    background-color: #20ABE7; /* Color de fondo */
+    border-color: #20ABE7; /* Color del borde */
+    font-weight: bold; /* Negrita */
+    width: fit-content; /* Ajuste del ancho al contenido */
+}
+
+/* Efecto hover para botones primarios */
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo en hover */
+    border-color: #0056b3; /* Color del borde en hover */
+}
+
+/* Estilos para la segunda sección */
+.containerCards {
+    display: flex; /* Flexbox para alinear tarjetas */
+    background-color: #00d0ff79; /* Color de fondo */
+    width: 100%; /* Ancho completo */
+    min-height: 20rem; /* Altura mínima */
+}
+
+/* Estilos para cada tarjeta de la segunda sección */
+.cardSec2 {
+    display: flex; /* Flexbox para alinear contenido */
+    flex-direction: column; /* Orientación en columna */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    width: 14rem; /* Ancho fijo */
+    border-radius: 15px; /* Bordes redondeados */
+    margin: 0.5rem; /* Margen alrededor de la tarjeta */
+    padding: 0.5rem; /* Espaciado interno */
+    height: 18rem; /* Altura fija */
+}
+
+/* Contenedor de tarjetas en la segunda sección */
+.carndsContainer {
+    height: 100%; /* Altura completa */
+    display: flex; /* Flexbox para alinear contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para las tarjetas de doctores */
+.doctor-card {
+    width: 100%; /* Ajusta al contenedor */
+    max-width: 220px; /* Ancho máximo */
+    min-height: 250px; /* Altura mínima */
+    color: #ffffff; /* Color del texto */
+    border-radius: 15px; /* Bordes redondeados */
+    text-align: center; /* Centrar texto */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen alrededor de la tarjeta */
+    background: rgb(32,171,231); /* Color de fondo inicial */
+    background: linear-gradient(180deg, rgba(32,171,231,1) 26%, rgba(0,86,179,1) 79%); /* Degradado */
+}
+
+/* Estilos para columnas de doctores */
+.col-md-3 {
+    display: grid; /* Activa Grid */
+    place-items: center; /* Centra horizontal y verticalmente */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para imágenes de doctores */
+.doctorImage {
+    width: 100px; /* Ancho fijo */
+    height: 100px; /* Altura fija */
+    border-radius: 50%; /* Bordes redondeados */
+    object-fit: cover; /* Ajuste de la imagen */
+}
+
+/* Estilos para formularios de entrada */
+.inputForms {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde */
+    margin-bottom: 15px; /* Espacio entre inputs */
+}
